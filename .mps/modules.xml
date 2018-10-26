@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/solutions/de.citec.depenedncydiagram.sandbox/de.citec.depenedncydiagram.sandbox.msd" folder="" />
+      <modulePath path="$USER_HOME$/git/mps/de.citec.dependencydiagram/solutions/e.citec.dependencydiagram/de.citec.dependencydiagram.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
