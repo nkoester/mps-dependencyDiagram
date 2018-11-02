@@ -2,8 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/de.citec.dependencydiagram.devkit/de.citec.dependencydiagram.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.citec.dependencydiagramwrapper/de.citec.dependencydiagramwrapper.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.citec.depenedncydiagram.sandbox/de.citec.depenedncydiagram.sandbox.msd" folder="" />
-      <modulePath path="$USER_HOME$/git/mps/de.citec.dependencydiagram/solutions/e.citec.dependencydiagram/de.citec.dependencydiagram.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/delme/delme.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/e.citec.dependencydiagram/de.citec.dependencydiagram.msd" folder="" />
     </projectModules>
   </component>
 </project>
