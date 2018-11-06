@@ -27,6 +27,9 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -116,7 +119,22 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="6kz3fYYErft" role="3cqZAp" />
+          <node concept="3clFbF" id="6kz3fYZ_fwB" role="3cqZAp">
+            <node concept="2OqwBi" id="6kz3fYZ_hL1" role="3clFbG">
+              <node concept="2OqwBi" id="6kz3fYZ_fWX" role="2Oq$k0">
+                <node concept="1r4Lsj" id="6kz3fYZ_fw_" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6kz3fYZ_g8B" role="2OqNvi">
+                  <ref role="3TsBF5" to="5in6:6kz3fYZ_a5D" resolve="depth" />
+                </node>
+              </node>
+              <node concept="tyxLq" id="6kz3fYZ_igu" role="2OqNvi">
+                <node concept="3cmrfG" id="6kz3fYZ_iuh" role="tz02z">
+                  <property role="3cmrfH" value="20" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6kz3fYZ_erB" role="3cqZAp" />
           <node concept="3clFbF" id="6kz3fYYEpc9" role="3cqZAp">
             <node concept="2OqwBi" id="6kz3fYYEpca" role="3clFbG">
               <node concept="2OqwBi" id="6kz3fYYEpcb" role="2Oq$k0">
@@ -177,7 +195,23 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="6kz3fYYErP2" role="3cqZAp" />
+          <node concept="3clFbH" id="6kz3fYZtY1a" role="3cqZAp" />
+          <node concept="3clFbF" id="6kz3fYZtXus" role="3cqZAp">
+            <node concept="2OqwBi" id="6kz3fYZtXut" role="3clFbG">
+              <node concept="2OqwBi" id="6kz3fYZtXuu" role="2Oq$k0">
+                <node concept="1r4Lsj" id="6kz3fYZtXuv" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6kz3fYZtXY$" role="2OqNvi">
+                  <ref role="3TsBF5" to="5in6:6kz3fYZtVBF" resolve="hideEmptyGenerators" />
+                </node>
+              </node>
+              <node concept="tyxLq" id="6kz3fYZtXux" role="2OqNvi">
+                <node concept="3clFbT" id="6kz3fYZtXuy" role="tz02z">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6kz3fYZtX9y" role="3cqZAp" />
           <node concept="3clFbF" id="6kz3fYYErrC" role="3cqZAp">
             <node concept="2OqwBi" id="6kz3fYYErrD" role="3clFbG">
               <node concept="2OqwBi" id="6kz3fYYErrE" role="2Oq$k0">
@@ -224,14 +258,11 @@
             </node>
           </node>
           <node concept="3clFbH" id="6kz3fYYEqRF" role="3cqZAp" />
-          <node concept="3clFbH" id="6kz3fYYEzfh" role="3cqZAp" />
-          <node concept="3clFbH" id="6kz3fYYEzsY" role="3cqZAp" />
           <node concept="3SKdUt" id="6kz3fYYExVg" role="3cqZAp">
             <node concept="3SKdUq" id="6kz3fYYExVi" role="3SKWNk">
-              <property role="3SKdUp" value="automatically add plaintextgen as default generator" />
+              <property role="3SKdUp" value="todo: automatically add plaintextgen as default generator" />
             </node>
           </node>
-          <node concept="3clFbH" id="6kz3fYYEycB" role="3cqZAp" />
         </node>
       </node>
     </node>

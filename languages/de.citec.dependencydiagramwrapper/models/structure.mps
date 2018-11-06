@@ -49,6 +49,11 @@
     <property role="TrG5h" value="DependencyDiagram" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6kz3fYZ_a5D" role="1TKVEl">
+      <property role="IQ2nx" value="7287682914585977193" />
+      <property role="TrG5h" value="depth" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyi" id="NpdUR6XlFf" role="1TKVEl">
       <property role="IQ2nx" value="925832417908185807" />
       <property role="TrG5h" value="targetName" />
@@ -104,12 +109,17 @@
       <property role="TrG5h" value="autoGenerate" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyi" id="6kz3fYZtVBF" role="1TKVEl">
+      <property role="IQ2nx" value="7287682914584082923" />
+      <property role="TrG5h" value="hideEmptyGenerators" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="NpdUR6XE9Z" role="1TKVEi">
       <property role="IQ2ns" value="925832417908269695" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="solutionIdentity" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6kz3fYWmmel" resolve="SolutionIdentity" />
+      <ref role="20lvS9" node="6kz3fYWmmel" resolve="ModuleIdentity" />
     </node>
     <node concept="1TJgyj" id="6kz3fYWV4xR" role="1TKVEi">
       <property role="IQ2ns" value="7287682914541389943" />
@@ -129,7 +139,7 @@
   </node>
   <node concept="1TIwiD" id="6kz3fYWlZ5A">
     <property role="EcuMT" value="7287682914531668326" />
-    <property role="TrG5h" value="SolutionModulePointer" />
+    <property role="TrG5h" value="DepDiaModulePointer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6kz3fYWlZ68" role="1TKVEi">
       <property role="IQ2ns" value="7287682914531668360" />
@@ -139,12 +149,12 @@
       <ref role="20lvS9" to="dvox:k2ZBl8Cedx" resolve="ModulePointer" />
     </node>
     <node concept="PrWs8" id="6kz3fYWmwI5" role="PzmwI">
-      <ref role="PrY4T" node="6kz3fYWmmel" resolve="SolutionIdentity" />
+      <ref role="PrY4T" node="6kz3fYWmmel" resolve="ModuleIdentity" />
     </node>
   </node>
   <node concept="PlHQZ" id="6kz3fYWmmel">
     <property role="EcuMT" value="7287682914531763093" />
-    <property role="TrG5h" value="SolutionIdentity" />
+    <property role="TrG5h" value="ModuleIdentity" />
   </node>
 </model>
 

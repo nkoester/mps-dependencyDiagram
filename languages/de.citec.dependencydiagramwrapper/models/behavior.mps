@@ -74,7 +74,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="6kz3fYWp_YK">
-    <ref role="13h7C2" to="5in6:6kz3fYWmmel" resolve="SolutionIdentity" />
+    <ref role="13h7C2" to="5in6:6kz3fYWmmel" resolve="ModuleIdentity" />
     <node concept="13i0hz" id="6kz3fYWr2pr" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
@@ -90,7 +90,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="6kz3fYWpKy1">
-    <ref role="13h7C2" to="5in6:6kz3fYWlZ5A" resolve="SolutionModulePointer" />
+    <ref role="13h7C2" to="5in6:6kz3fYWlZ5A" resolve="DepDiaModulePointer" />
     <node concept="13hLZK" id="6kz3fYWpKy2" role="13h7CW">
       <node concept="3clFbS" id="6kz3fYWpKy3" role="2VODD2" />
     </node>
