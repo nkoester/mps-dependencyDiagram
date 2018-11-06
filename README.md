@@ -1,8 +1,10 @@
 # mps-dependencyDiagram
 
-Simple Dependency Graph | Another Simple Dependency Graph     |  Complex Dependency Graph
-:-------------------------:|:-------------------------:|:-------------------------:
-![Example Graph1](/doc/exampleGraph.png)  |  ![Example Graph2](/doc/exampleGraph2.png)|  ![Example Graph3](/doc/exampleGraph3.svg)
+Simple Dependency Graph | Another Simple Dependency Graph
+:-------------------------:|:-------------------------:
+![Example Graph1](/doc/exampleGraph.png)  |  ![Example Graph2](/doc/exampleGraph2.png)
+
+![Example Graph3](/doc/exampleGraph3.svg)
 
 Did you ever wonder how the dependencies within Jetbrains Meta Programming System are exactly? Or do you have to write a scientific paper to explain your dependency madness? Or is managment telling you 'that language modeling can't be that complex' and you want to show them what is really happening? Well, fear no more -- those days are over: The Dependency Diagram plugin is here to generate a module dependency graph which shows Languages, Solutions, Devkits, Plugins and their relations (i.e. uses, dependencies, extensions, provides).
 
