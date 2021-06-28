@@ -5,7 +5,7 @@
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="5in6" ref="r:a7d191e0-3412-4f51-9bf8-b7b0332f92a3(de.citec.dependencydiagramwrapper.structure)" />
+    <import index="5in6" ref="r:a7d191e0-3412-4f51-9bf8-b7b0332f92a3(libre.doge.dependencydiagramwrapper.structure)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">

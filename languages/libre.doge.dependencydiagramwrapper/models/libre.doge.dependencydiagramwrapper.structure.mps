@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:a7d191e0-3412-4f51-9bf8-b7b0332f92a3(de.citec.dependencydiagramwrapper.structure)">
+<model ref="r:a7d191e0-3412-4f51-9bf8-b7b0332f92a3(libre.doge.dependencydiagramwrapper.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -116,16 +116,16 @@
     </node>
     <node concept="1TJgyj" id="NpdUR6XE9Z" role="1TKVEi">
       <property role="IQ2ns" value="925832417908269695" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="solutionIdentity" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6kz3fYWmmel" resolve="ModuleIdentity" />
     </node>
     <node concept="1TJgyj" id="6kz3fYWV4xR" role="1TKVEi">
       <property role="IQ2ns" value="7287682914541389943" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="filterKeywords" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
     </node>
     <node concept="PrWs8" id="6kz3fYYtLxE" role="PzmwI">
@@ -143,9 +143,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6kz3fYWlZ68" role="1TKVEi">
       <property role="IQ2ns" value="7287682914531668360" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="module" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="dvox:k2ZBl8Cedx" resolve="ModulePointer" />
     </node>
     <node concept="PrWs8" id="6kz3fYWmwI5" role="PzmwI">

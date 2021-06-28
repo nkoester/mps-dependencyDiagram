@@ -2,11 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/devkits/de.citec.dependencydiagram.devkit/de.citec.dependencydiagram.devkit.devkit" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/de.citec.dependencydiagramwrapper/de.citec.dependencydiagramwrapper.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.citec.dependencydiagram.build/de.citec.dependencydiagram.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.citec.dependencydiagram.sandbox/de.citec.dependencydiagram.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/e.citec.dependencydiagram/de.citec.dependencydiagram.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/devkits/libre.doge.dependencydiagram.devkit/libre.doge.dependencydiagram.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/libre.doge.dependencydiagramwrapper/libre.doge.dependencydiagramwrapper.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/e.citec.dependencydiagram/libre.doge.dependencydiagram.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.dependencydiagram.build/libre.doge.dependencydiagram.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.dependencydiagram.sandbox/libre.doge.dependencydiagram.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

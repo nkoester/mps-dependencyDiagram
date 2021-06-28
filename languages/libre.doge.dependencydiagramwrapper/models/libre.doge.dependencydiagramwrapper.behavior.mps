@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7eeffa82-e981-4380-bc5f-667b60570f50(de.citec.dependencydiagramwrapper.behavior)">
+<model ref="r:7eeffa82-e981-4380-bc5f-667b60570f50(libre.doge.dependencydiagramwrapper.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
-    <import index="5in6" ref="r:a7d191e0-3412-4f51-9bf8-b7b0332f92a3(de.citec.dependencydiagramwrapper.structure)" implicit="true" />
+    <import index="5in6" ref="r:a7d191e0-3412-4f51-9bf8-b7b0332f92a3(libre.doge.dependencydiagramwrapper.structure)" implicit="true" />
     <import index="xlb7" ref="r:cf42fd0a-68d2-493b-8b77-961658617704(jetbrains.mps.lang.modelapi.behavior)" implicit="true" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
   </imports>
