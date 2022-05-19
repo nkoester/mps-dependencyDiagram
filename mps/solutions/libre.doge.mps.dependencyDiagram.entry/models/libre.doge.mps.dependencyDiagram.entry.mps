@@ -170,7 +170,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="p0UonuBph9" role="3989C9">
-      <property role="TrG5h" value="libre.doge.mps.dependencyDiagram.build" />
+      <property role="TrG5h" value="libre.doge.mps.dependencydiagram.build" />
       <node concept="1E1JtA" id="p0UonuBJVt" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="libre.doge.mps.dependencyDiagram.build" />

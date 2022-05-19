@@ -161,7 +161,7 @@
     </language>
   </registry>
   <node concept="1l3spW" id="6kz3fYZDLjo">
-    <property role="TrG5h" value="libre.doge.mps.dependencyDiagram.build" />
+    <property role="TrG5h" value="libre.doge.mps.dependencydiagram.build" />
     <property role="2DA0ip" value="../../../build" />
     <node concept="10PD9b" id="6kz3fYZDLjp" role="10PD9s" />
     <node concept="3b7kt6" id="6kz3fYZDLjq" role="10PD9s" />
@@ -255,16 +255,16 @@
     </node>
     <node concept="1l3spV" id="6kz3fYZDLjU" role="1l3spN">
       <node concept="m$_wl" id="p0UonuBNls" role="39821P">
-        <ref role="m_rDy" node="p0UonuBNeQ" resolve="libre.doge.mps.dependencyDiagram.build" />
+        <ref role="m_rDy" node="p0UonuBNeQ" resolve="libre.doge.mps.dependencydiagram.build" />
         <node concept="pUk6x" id="p0UonuBNlH" role="pUk7w" />
       </node>
       <node concept="m$_wl" id="p0UonuBNl0" role="39821P">
-        <ref role="m_rDy" node="6kz3fYZDLjL" resolve="libre.doge.mps.dependencyDiagram" />
+        <ref role="m_rDy" node="6kz3fYZDLjL" resolve="libre.doge.mps.dependencydiagram" />
         <node concept="pUk6x" id="p0UonuBNlK" role="pUk7w" />
       </node>
     </node>
     <node concept="m$_wf" id="p0UonuBNeQ" role="3989C9">
-      <property role="m$_wk" value="libre.doge.mps.dependencyDiagram.build" />
+      <property role="m$_wk" value="libre.doge.mps.dependencydiagram.build" />
       <node concept="2pNNFK" id="p0UonuBNkF" role="20twgj">
         <property role="2pNNFO" value="vendor" />
         <node concept="2pNUuL" id="p0UonuBNkG" role="2pNNFR">
@@ -282,12 +282,12 @@
       </node>
       <node concept="3_J27D" id="p0UonuBNeS" role="m$_yQ">
         <node concept="3Mxwew" id="p0UonuBNgl" role="3MwsjC">
-          <property role="3MwjfP" value="libre.doge.mps.dependencyDiagram.build" />
+          <property role="3MwjfP" value="libre.doge.mps.dependencydiagram.build" />
         </node>
       </node>
       <node concept="3_J27D" id="p0UonuBNeU" role="m_cZH">
         <node concept="3Mxwew" id="p0UonuBNgn" role="3MwsjC">
-          <property role="3MwjfP" value="libre.doge.mps.dependencyDiagram.build" />
+          <property role="3MwjfP" value="libre.doge.mps.dependencydiagram.build" />
         </node>
       </node>
       <node concept="3_J27D" id="p0UonuBNeW" role="m$_w8">
@@ -297,17 +297,17 @@
       </node>
       <node concept="2iUeEo" id="p0UonuBNgr" role="2iVFfd">
         <property role="2iUeEt" value="libre.doge" />
-        <property role="2iUeEu" value="https://github.com/nkoester/mps-dependencyDiagram" />
+        <property role="2iUeEu" value="https://github.com/nkoester/mps-dependencydiagram" />
       </node>
       <node concept="m$f5U" id="p0UonuBNkw" role="m$_yh">
-        <ref role="m$f5T" node="p0UonuBNhW" resolve="libre.doge.mps.dependencyDiagram.build" />
+        <ref role="m$f5T" node="p0UonuBNhW" resolve="libre.doge.mps.dependencydiagram.build" />
       </node>
       <node concept="m$_yC" id="p0UonuBNkB" role="m$_yJ">
         <ref role="m$_y1" to="o4fo:3k6OJdH$3CW" resolve="libre.doge.mps.dot.build" />
       </node>
     </node>
     <node concept="2G$12M" id="p0UonuBNhW" role="3989C9">
-      <property role="TrG5h" value="libre.doge.mps.dependencyDiagram.build" />
+      <property role="TrG5h" value="libre.doge.mps.dependencydiagram.build" />
       <node concept="1E1JtA" id="p0UonuBNju" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="libre.doge.mps.dependencyDiagram.build" />
@@ -364,7 +364,7 @@
       </node>
     </node>
     <node concept="m$_wf" id="6kz3fYZDLjL" role="3989C9">
-      <property role="m$_wk" value="libre.doge.mps.dependencyDiagram" />
+      <property role="m$_wk" value="libre.doge.mps.dependencydiagram" />
       <node concept="2pNNFK" id="4J0OvZJgW_f" role="20twgj">
         <property role="2pNNFO" value="vendor" />
         <node concept="2pNUuL" id="4J0OvZJgW_Q" role="2pNNFR">
@@ -382,7 +382,7 @@
       </node>
       <node concept="3_J27D" id="6kz3fYZDLjM" role="m$_yQ">
         <node concept="3Mxwew" id="6kz3fYZDLjN" role="3MwsjC">
-          <property role="3MwjfP" value="libre.doge.mps.dependencyDiagram" />
+          <property role="3MwjfP" value="libre.doge.mps.dependencydiagram" />
         </node>
       </node>
       <node concept="3_J27D" id="6kz3fYZDLjO" role="m$_w8">
@@ -391,7 +391,7 @@
         </node>
       </node>
       <node concept="m$f5U" id="6kz3fYZDLjQ" role="m$_yh">
-        <ref role="m$f5T" node="6kz3fYZDLjK" resolve="libre.doge.mps.dependencyDiagram" />
+        <ref role="m$f5T" node="6kz3fYZDLjK" resolve="libre.doge.mps.dependencydiagram" />
       </node>
       <node concept="m$_yC" id="6kz3fYZDLjR" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
@@ -410,16 +410,16 @@
       </node>
       <node concept="3_J27D" id="6kz3fYZDLjS" role="m_cZH">
         <node concept="3Mxwew" id="6kz3fYZDLjT" role="3MwsjC">
-          <property role="3MwjfP" value="libre.doge.mps.dependencyDiagram" />
+          <property role="3MwjfP" value="libre.doge.mps.dependencydiagram" />
         </node>
       </node>
       <node concept="2iUeEo" id="p0UonuBNeB" role="2iVFfd">
         <property role="2iUeEt" value="libre.doge" />
-        <property role="2iUeEu" value="https://github.com/nkoester/mps-dependencyDiagram" />
+        <property role="2iUeEu" value="https://github.com/nkoester/mps-dependencydiagram" />
       </node>
     </node>
     <node concept="2G$12M" id="6kz3fYZDLjK" role="3989C9">
-      <property role="TrG5h" value="libre.doge.mps.dependencyDiagram" />
+      <property role="TrG5h" value="libre.doge.mps.dependencydiagram" />
       <node concept="1E1JtA" id="p0UonuBNwQ" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="libre.doge.mps.dependencydiagram.plugin" />

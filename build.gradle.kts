@@ -94,8 +94,8 @@ downloadJbr {
 
 // dependency versions
 object Versions {
-    public const val groupID: String = "libre.doge"
-    public const val artifactID: String = "dependencyDiagram"
+    public const val groupID: String = "libre.doge.mps"
+    public const val artifactID: String = "dependencydiagram"
     public const val fullID: String =  Versions.groupID + "." + Versions.artifactID
     // java
     public const val jbr: String = "11_0_10-b1145.96"
@@ -207,7 +207,7 @@ val packageMpsPlugin by tasks.registering(Zip::class) {
     dependsOn(buildLanguages)
     archiveFileName.set(Versions.groupID + "." + Versions.artifactID + "." + Versions.buildVerison + ".zip")
 
-    from(file("build/artifacts/libre.doge.dependencyDiagram.build"))
+    from(file("build/artifacts/libre.doge.mps.dependencydiagram.build"))
     destinationDirectory.set(publishDir)
 }
 
