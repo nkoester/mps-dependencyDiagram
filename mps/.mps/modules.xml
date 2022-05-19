@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/libre.doge.mps.dependencydiagram/libre.doge.mps.dependencydiagram.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/libre.doge.mps.dependencyDiagramWrapper/libre.doge.mps.dependencyDiagramWrapper.mpl" folder="50_core" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.mps.dependencyDiagram.build/libre.doge.mps.dependencyDiagram.build.msd" folder="00_build" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.mps.dependencyDiagram.entry/libre.doge.mps.dependencyDiagram.entry.msd" folder="00_build" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.mps.dependencyDiagram.plugin/libre.doge.mps.dependencydiagram.plugin.msd" folder="50_core" />
+      <modulePath path="$PROJECT_DIR$/solutions/libre.doge.mps.dependencydiagram.sandbox/libre.doge.mps.dependencydiagram.sandbox.msd" folder="90_sandbox" />
+    </projectModules>
+  </component>
+</project>

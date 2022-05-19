@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="libre.doge.mps.dependencydiagram" uuid="4a997099-e6fe-4c5c-b547-f622a48aa0af">
+  <exported-language name="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <exported-language name="6927e7ca-3868-44b9-a9be-7979aae71f7d(libre.doge.mps.dependencyDiagramWrapper)" />
+  <extendedDevKits>
+    <extendedDevKit>c5093ec9-39ec-4fce-8f7a-67baf9750637(libre.doge.mps.dot.devkit)</extendedDevKit>
+  </extendedDevKits>
+  <exported-solutions>
+    <exported-solution>8f4b559b-00f2-4e7b-bafc-54369db1cb7d(libre.doge.mps.dependencydiagram.plugin)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+
