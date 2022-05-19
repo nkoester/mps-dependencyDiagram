@@ -216,7 +216,7 @@ val branch = GitBasedVersioning.getGitBranch()
 
 publishing {
     repositories {
-        if(branch.equals("main") || branch.equals("maintenance")) {
+        if(branch.equals("main") || branch.startsWith("maintenance") || branch.startsWith("legacy")) {
             logger.lifecycle("Will publish, (branch is '{}')", branch)
             maven {
                 name = "GitHubPackages"

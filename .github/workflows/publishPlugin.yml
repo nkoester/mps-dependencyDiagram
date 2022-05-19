@@ -3,8 +3,7 @@ name: Publish Language Plugin
 # Controls when the action will run.
 on:
 
-# Triggers the workflow on push or pull request events but only for the main branch
-  push:
+  # Triggers the workflow on pull request
   pull_request:
     # prevent triggering twice when pushing to a pr branch as in https://github.community/t/how-to-trigger-an-action-on-push-or-pull-request-but-not-both/16662/8
     types: [opened]
