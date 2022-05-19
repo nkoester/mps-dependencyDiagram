@@ -2,7 +2,7 @@
 <model ref="r:dcd463a5-3f0b-4e2e-a62f-568673ef1451(libre.doge.mps.dependencyDiagramWrapper.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -244,7 +244,7 @@
           <node concept="2iRkQZ" id="6kz3fYZrQ_K" role="2czzBx" />
           <node concept="OXEIz" id="6kz3fYWk8bo" role="1k68KV">
             <node concept="1fxSsy" id="6kz3fYWk8bz" role="OY2wv">
-              <property role="1ezIyd" value="custom" />
+              <property role="1ezIyd" value="gWZP3tU/custom_" />
               <node concept="1fyNS0" id="6kz3fYWk8b$" role="1fxSsw">
                 <node concept="3clFbS" id="6kz3fYWk8b_" role="2VODD2">
                   <node concept="3cpWs8" id="6kz3fYWk8bA" role="3cqZAp">
