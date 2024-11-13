@@ -115,10 +115,10 @@
               </node>
             </node>
             <node concept="liA8E" id="6kz3fYWpOs4" role="2OqNvi">
-              <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.module.SModule" resolve="resolve" />
+              <ref role="37wK5l" to="lui2:~SModuleReference.resolve(org.jetbrains.mps.openapi.module.SRepository)" resolve="resolve" />
               <node concept="2OqwBi" id="6kz3fYWpQCV" role="37wK5m">
                 <node concept="liA8E" id="6kz3fYWpR0Z" role="2OqNvi">
-                  <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                  <ref role="37wK5l" to="mhbf:~SModel.getRepository()" resolve="getRepository" />
                 </node>
                 <node concept="2JrnkZ" id="6kz3fYWpQD4" role="2Oq$k0">
                   <node concept="2OqwBi" id="6kz3fYWpP78" role="2JrQYb">

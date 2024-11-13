@@ -153,7 +153,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="7rvkhlPyKvc" role="1l3spa">
-      <ref role="1l3spb" to="o4fo:74BOdhSGtEr" resolve="de.doge.mps.dot.build" />
+      <ref role="1l3spb" to="o4fo:74BOdhSGtEr" resolve="libre.doge.mps.dot.build" />
       <node concept="398BVA" id="7rvkhlPyKvm" role="2JcizS">
         <ref role="398BVh" node="p0UonuBJVY" resolve="root.dependencies" />
       </node>
