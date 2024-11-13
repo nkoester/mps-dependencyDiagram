@@ -7,11 +7,11 @@ import kotlin.reflect.full.memberProperties
 
 buildscript {
     repositories {
-        maven { url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr") }
+        maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
     }
 
     dependencies {
-        classpath("de.itemis.mps:mps-gradle-plugin:1.6.281.3790039")
+        classpath("de.itemis.mps:mps-gradle-plugin:1.28.0.1.f8ee996")
     }
 }
 
@@ -60,10 +60,9 @@ repositories {
     }
 
     maven {
-        url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr")
+        url = uri("https://artifacts.itemis.cloud/repository/maven-mps/")
     }
 
-    //maven { url = uri("https://projects.itemis.de/nexus/content/repositories/mbeddr") }
     mavenCentral()
 }
 
@@ -104,20 +103,20 @@ object Versions {
     public const val downloadJBR: String = "1.6.281.3790039"
 
     // mps
-    public const val mpsMajor: String = "2019"
+    public const val mpsMajor: String = "2021"
     public const val mpsMinor: String = "3"
-    public const val mpsPatch: String = "7"
+    public const val mpsPatch: String = "5"
     public const val mpsMajorMinor: String = Versions.mpsMajor + "." + Versions.mpsMinor
     public const val mpsFull: String = Versions.mpsMajorMinor + "." + Versions.mpsPatch
 
     // dot
-    public const val dot: String = "2019.3.7-SNAPSHOT"
+    public const val dot: String = "2021.3.5-SNAPSHOT"
 
     // this project
     public const val buildVerison: String = Versions.mpsFull + "-SNAPSHOT"
 
     // mps dependencies
-    public const val extensions: String = "2019.3.1746.2abe98b"
+    public const val extensions: String = "2021.3.2869.e5eae69"
     public const val antjunit: String = "1.10.6"
 
     override fun toString() : String{
