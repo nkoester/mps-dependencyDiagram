@@ -156,6 +156,9 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="7rvkhlPyKw1" role="2JcizS">
         <ref role="398BVh" node="p0UonuBJVY" resolve="root.dependencies" />
+        <node concept="2Ry0Ak" id="lPyLIwUlao" role="iGT6I">
+          <property role="2Ry0Am" value="de.itemis.mps.extensions" />
+        </node>
       </node>
     </node>
     <node concept="2sgV4H" id="7rvkhlPyKvc" role="1l3spa">

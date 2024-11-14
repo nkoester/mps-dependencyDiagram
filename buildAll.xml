@@ -9,7 +9,7 @@
   <property name="root.module" location="${root.project}/mps" />
   <property name="root.dependencies" location="${root.project}/mps/dependencies" />
   <property name="artifacts.mps" location="${root.mps}" />
-  <property name="artifacts.de.itemis.mps.extensions" location="${root.dependencies}" />
+  <property name="artifacts.de.itemis.mps.extensions" location="${root.dependencies}/de.itemis.mps.extensions" />
   <property name="artifacts.de.doge.mps.dot.build" location="${root.dependencies}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property file="${artifacts.de.itemis.mps.extensions}/build.properties" prefix="import.de.itemis.mps.extensions" />

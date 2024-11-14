@@ -126,6 +126,9 @@
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -185,12 +188,9 @@
     <node concept="398rNT" id="p0UonuBJVD" role="1l3spd">
       <property role="TrG5h" value="root.mps" />
       <node concept="398BVA" id="p0UonuBJVM" role="398pKh">
-        <ref role="398BVh" node="p0UonuBJVz" resolve="root.project" />
-        <node concept="2Ry0Ak" id="p0UonuBJVP" role="iGT6I">
-          <property role="2Ry0Am" value="build" />
-          <node concept="2Ry0Ak" id="p0UonuBJVS" role="2Ry0An">
-            <property role="2Ry0Am" value="mps" />
-          </node>
+        <ref role="398BVh" node="p0UonuBJVC" resolve="root.build" />
+        <node concept="2Ry0Ak" id="lPyLIwUgCY" role="iGT6I">
+          <property role="2Ry0Am" value="mps" />
         </node>
       </node>
     </node>
@@ -241,15 +241,15 @@
         <ref role="398BVh" node="p0UonuBJVD" resolve="root.mps" />
       </node>
     </node>
-    <node concept="2sgV4H" id="p0UonuBNcy" role="1l3spa">
-      <ref role="1l3spb" to="o4fo:74BOdhSGtEr" resolve="libre.doge.mps.dot.build" />
-      <node concept="398BVA" id="p0UonuBNcG" role="2JcizS">
-        <ref role="398BVh" node="p0UonuBJVY" resolve="root.dependencies" />
-      </node>
-    </node>
     <node concept="2sgV4H" id="7rvkhlPyN9N" role="1l3spa">
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
       <node concept="398BVA" id="7rvkhlPyN9U" role="2JcizS">
+        <ref role="398BVh" node="p0UonuBJVY" resolve="root.dependencies" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="p0UonuBNcy" role="1l3spa">
+      <ref role="1l3spb" to="o4fo:74BOdhSGtEr" resolve="libre.doge.mps.dot.build" />
+      <node concept="398BVA" id="p0UonuBNcG" role="2JcizS">
         <ref role="398BVh" node="p0UonuBJVY" resolve="root.dependencies" />
       </node>
     </node>
@@ -575,6 +575,22 @@
         <node concept="1SiIV0" id="p0UonuBNtr" role="3bR37C">
           <node concept="1Busua" id="p0UonuBNts" role="1SiIV1">
             <ref role="1Busuk" to="ffeo:4SM2EuqHUPF" resolve="jetbrains.mps.lang.modelapi" />
+          </node>
+        </node>
+        <node concept="3rtmxn" id="lPyLIwUgDf" role="3bR31x">
+          <node concept="3LXTmp" id="lPyLIwUgDg" role="3rtmxm">
+            <node concept="398BVA" id="lPyLIwUgDh" role="3LXTmr">
+              <ref role="398BVh" node="p0UonuBJVE" resolve="root.module" />
+              <node concept="2Ry0Ak" id="lPyLIwUgDi" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="lPyLIwUgDj" role="2Ry0An">
+                  <property role="2Ry0Am" value="libre.doge.mps.dependencyDiagramWrapper" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="lPyLIwUgDl" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
+            </node>
           </node>
         </node>
       </node>
