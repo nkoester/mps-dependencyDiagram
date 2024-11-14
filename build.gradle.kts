@@ -36,22 +36,6 @@ repositories {
     }
 
     maven {
-        url = uri("https://maven.pkg.github.com/JetBrains/MPS-extensions")
-        credentials {
-            username = githubUsername
-            password = githubToken
-        }
-    }
-
-    maven {
-        url = uri("https://maven.pkg.github.com/mbeddr/build.publish.jdk")
-        credentials {
-                username = githubUsername
-                password = githubToken
-        }
-    }
-
-    maven {
         url = uri("https://maven.pkg.github.com/nkoester/mps-dot")
         credentials {
                 username = githubUsername
@@ -64,6 +48,7 @@ repositories {
     }
 
     mavenCentral()
+    mavenLocal()
 }
 
 // configurations
