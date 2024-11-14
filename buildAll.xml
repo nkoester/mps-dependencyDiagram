@@ -9,9 +9,10 @@
   <property name="root.module" location="${root.project}/mps" />
   <property name="root.dependencies" location="${root.project}/mps/dependencies" />
   <property name="artifacts.mps" location="${root.mps}" />
-  <property name="artifacts.de.doge.mps.dot.build" location="${root.dependencies}" />
   <property name="artifacts.de.itemis.mps.extensions" location="${root.dependencies}" />
+  <property name="artifacts.de.doge.mps.dot.build" location="${root.dependencies}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
+  <property file="${artifacts.de.itemis.mps.extensions}/build.properties" prefix="import.de.itemis.mps.extensions" />
   <property file="${artifacts.de.doge.mps.dot.build}/build.properties" prefix="import.de.doge.mps.dot.build" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
@@ -24,9 +25,9 @@
   <property name="mpsBootstrapCore.version.bugfixNr" value="${import.mps.mpsBootstrapCore.version.bugfixNr}" />
   <property name="mpsBootstrapCore.version.eap" value="${import.mps.mpsBootstrapCore.version.eap}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
+  <property name="de.itemis.mps.extensions.versionNumber" value="${import.de.itemis.mps.extensions.de.itemis.mps.extensions.versionNumber}" />
   <property name="de.doge.mps.dot.build.prefix.name" value="${import.de.doge.mps.dot.build.de.doge.mps.dot.build.prefix.name}" />
   <property name="de.doge.mps.dot.build.current.version" value="${import.de.doge.mps.dot.build.de.doge.mps.dot.build.current.version}" />
-  <property name="de.itemis.mps.extensions.versionNumber" value="${import.de.doge.mps.dot.build.de.itemis.mps.extensions.versionNumber}" />
   <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
@@ -84,7 +85,7 @@
       <zipfileset file="${root.module}/solutions/libre.doge.mps.dependencyDiagram.build/libre.doge.mps.dependencyDiagram.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-libre.doge.mps.dependencyDiagram.build-models" prefix="module/models" />
     </jar>
-    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.doge.mps.dot.build.prefix.name=${de.doge.mps.dot.build.prefix.name}${line.separator}de.doge.mps.dot.build.current.version=${de.doge.mps.dot.build.current.version}${line.separator}de.itemis.mps.extensions.versionNumber=${de.itemis.mps.extensions.versionNumber}</echo>
+    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.versionNumber=${de.itemis.mps.extensions.versionNumber}${line.separator}de.doge.mps.dot.build.prefix.name=${de.doge.mps.dot.build.prefix.name}${line.separator}de.doge.mps.dot.build.current.version=${de.doge.mps.dot.build.current.version}</echo>
   </target>
   
   <target name="buildDependents" />
